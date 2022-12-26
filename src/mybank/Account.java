@@ -28,6 +28,7 @@ public class Account {
 		if (amount < 0) {
 			System.out.println("마이너스 금액은 예금할 수 없습니다.");
 			System.out.println("깃허브에 반영할 내용");
+			System.out.println("깃허브에 두번째로 반영할 내용");
 			return;
 		}
 		this.balance += amount;
