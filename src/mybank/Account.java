@@ -36,6 +36,7 @@ public class Account {
 	public void withdraw(String accountNo, int amount) {
 		if (!this.accountNo.equals(accountNo)) {
 			System.out.println("계좌번호가 일치하지 않습니다.");
+			System.out.println("깃 첫번째 수정");
 			return;
 		}
 		if (amount < 0) {
